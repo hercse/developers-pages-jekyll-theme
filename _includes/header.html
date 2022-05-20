@@ -1,0 +1,25 @@
+<!-- global layout header -->
+<div class="layout__header grid20">
+    <div class="layout__header-brand g:1-16 m:g:1-6">
+        <div class="title">herc.se</div>
+        <br>
+        <div class="description">
+            Ut pellentesque habitant vel imperdiet tortor sed quis eu. In convallis pulvinar vitae ut blandit.
+        </div>
+
+    </div>
+    <div class="layout__header-menu g:1-21 m:g:6-21">
+        <div class="layout__header-menu-list">
+            <a href="{{ " / " | relative_url }}" class="layout__header-menu-item">home</a> {%- include social.html -%}
+        </div>
+    </div>
+    <div class="line g:1-21"></div>
+    <!-- page:layout__header -->
+    <div class="page:layout__header d-flex">
+        <div class="page:layout__header-title d-flex">
+            <div class="">PAGE</div>
+            <div class="large-headar">{{ site.title | escape }}</div>
+        </div>
+    </div>
+    <!-- page:layout__header -->
+</div>
