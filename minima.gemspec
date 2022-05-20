@@ -8,7 +8,6 @@ Gem::Specification.new do |spec|
 
   spec.summary  = "Jekyll Theme"
   spec.homepage = "https://github.com/hercsart"
-  spec.license  = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
 
